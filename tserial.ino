@@ -8,12 +8,12 @@ int DRY = 2; // Dry Indicator at Digital PIN D4
 int sense_Pin = 0; // Soil Sensor input at Analog PIN A0
 int value = 0;
 
-String apiKey = "FCMM23HGC89C8W58";
-const char* ssid = "gaurav";
-const char* password = "12345678";
+String apiKey = "*********";       #enter your thingspeak API
+const char* ssid = "******";
+const char* password = "******";
  
 String host = "maker.ifttt.com/trigger/";
-String url = "HydroSMS/with/key/oOU-o67r2OZ2c5IBlbFTZ";
+String url = "HydroSMS/with/key/***********";
 
 
 const char* server = "api.thingspeak.com";
